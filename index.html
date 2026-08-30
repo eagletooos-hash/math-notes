@@ -8,124 +8,107 @@
 
 <style>
 
-*{
+body{
+font-family:Tahoma;
+background:#f5f7fa;
 margin:0;
 padding:0;
-box-sizing:border-box;
-font-family:"Tahoma",sans-serif;
-}
-
-body{
-background:linear-gradient(135deg,#e0f2fe,#f8fafc);
-min-height:100vh;
 }
 
 header{
 text-align:center;
-padding:60px 20px;
+padding:40px;
 }
 
 header h1{
 font-size:50px;
-color:#0f172a;
 margin-bottom:10px;
 }
 
-header p{
-font-size:20px;
-color:#475569;
-}
+.cards{
 
-.container{
-max-width:1200px;
-margin:auto;
-padding:20px;
+display:flex;
 
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-gap:30px;
+justify-content:center;
+
+gap:25px;
+
+flex-wrap:wrap;
+
+padding:40px;
 }
 
 .card{
+
+width:300px;
+
+height:220px;
+
 background:white;
-border-radius:25px;
-padding:50px 25px;
-text-align:center;
+
+border-radius:20px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+
 text-decoration:none;
-color:#111827;
-box-shadow:0 10px 25px rgba(0,0,0,.1);
-transition:.3s;
+
+color:black;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+transition:0.3s;
 }
 
 .card:hover{
-transform:translateY(-10px);
+transform:translateY(-8px);
 background:#2563eb;
 color:white;
 }
 
 .icon{
-font-size:70px;
-margin-bottom:20px;
+font-size:60px;
+margin-bottom:15px;
 }
 
 .title{
-font-size:32px;
+font-size:28px;
 font-weight:bold;
 }
 
-.desc{
-margin-top:10px;
-font-size:18px;
-}
-
-footer{
-text-align:center;
-padding:40px;
-color:#64748b;
-}
-
 </style>
-
 </head>
 
 <body>
 
 <header>
+
 <h1>📚 منصة الرياضيات</h1>
+
 <p>اختر المرحلة الدراسية</p>
+
 </header>
 
-<div class="container">
+<div class="cards">
 
-grade1.html
-<div class="icon">🎓</div>
+<a class="ss="icon">🎓</div>
 <div class="title">الصف الأول الثانوي</div>
-<div class="desc">
-رياضيات 1 • رياضيات 2
-</div>
 </a>
 
-grade2.html
-<div class="icon">🎓</div>
-<div class="title">الصف الثاني الثانوي</div>
-<div class="desc">
-رياضيات 3 • رياضيات 4
-</div>
+<a class="card" href="#">
+<div iv class="title">الصف الثاني الثانوي</div>
 </a>
 
-grade3.html
-<div class="icon">🎓</div>
-<div class="title">الصف الثالث الثانوي</div>
-<div class="desc">
-رياضيات 5 • رياضيات 6
-</div>
+<a class="card" href="#">
+<div iv class="title">الصف الثالث الثانوي</div>
 </a>
 
 </div>
-
-<footer>
-منصة تعليمية لمراجعة الرياضيات
-</footer>
 
 </body>
 </html>
