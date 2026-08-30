@@ -2,12 +2,130 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
-<title>ملاحظات رياضية</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>منصة الرياضيات</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Tahoma",sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#e0f2fe,#f8fafc);
+min-height:100vh;
+}
+
+header{
+text-align:center;
+padding:60px 20px;
+}
+
+header h1{
+font-size:50px;
+color:#0f172a;
+margin-bottom:10px;
+}
+
+header p{
+font-size:20px;
+color:#475569;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:20px;
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+border-radius:25px;
+padding:50px 25px;
+text-align:center;
+text-decoration:none;
+color:#111827;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+background:#2563eb;
+color:white;
+}
+
+.icon{
+font-size:70px;
+margin-bottom:20px;
+}
+
+.title{
+font-size:32px;
+font-weight:bold;
+}
+
+.desc{
+margin-top:10px;
+font-size:18px;
+}
+
+footer{
+text-align:center;
+padding:40px;
+color:#64748b;
+}
+
+</style>
+
 </head>
+
 <body>
 
-<h1>مرحبًا بك في موقعي</h1>
-<p>ملخصات رياضيات 1</p>
+<header>
+<h1>📚 منصة الرياضيات</h1>
+<p>اختر المرحلة الدراسية</p>
+</header>
+
+<div class="container">
+
+grade1.html
+<div class="icon">🎓</div>
+<div class="title">الصف الأول الثانوي</div>
+<div class="desc">
+رياضيات 1 • رياضيات 2
+</div>
+</a>
+
+grade2.html
+<div class="icon">🎓</div>
+<div class="title">الصف الثاني الثانوي</div>
+<div class="desc">
+رياضيات 3 • رياضيات 4
+</div>
+</a>
+
+grade3.html
+<div class="icon">🎓</div>
+<div class="title">الصف الثالث الثانوي</div>
+<div class="desc">
+رياضيات 5 • رياضيات 6
+</div>
+</a>
+
+</div>
+
+<footer>
+منصة تعليمية لمراجعة الرياضيات
+</footer>
 
 </body>
 </html>
